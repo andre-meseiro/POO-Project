@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TestPresidential
+comment0.text=\r\n\ A\ classe\ TestPresidential\ serve\ para\ simular\ e\ testar\ as\ funcionalidades\ implementadas\ para\ uma\ eleicao\ presidencial\ com\ votos\ manuais.\r\n\r\n\ @author\ Grupo\ 4\ Turma\ 7\r\n\ @version\ 26/06/2022\r\n
+comment1.params=
+comment1.target=TestPresidential()
+comment1.text=\r\n\ Construtor\ da\ classe\ TestPresidential.\r\n\ Instancia\ uma\ nova\ simulacao\ de\ teste.\r\n
+comment2.params=
+comment2.target=void\ testElectPresident()
+comment2.text=\r\n\ Teste\ ao\ metodo\ que\ elege\ o\ Presidente\ da\ Republica.\r\n
+comment3.params=
+comment3.target=void\ testNumberOfVotesEachCandidate()
+comment3.text=\r\n\ Teste\ ao\ metodo\ que\ mostra\ no\ ecra\ o\ numero\ de\ votos\ que\ cada\ candidato\ obteve.\r\n
+comment4.params=
+comment4.target=void\ testGetVotesPercentage()
+comment4.text=\r\n\ Teste\ ao\ metodo\ que\ mostra\ no\ ecra\ a\ percentagem\ de\ votos\ obtida\ pelos\ candidatos.\r\n
+comment5.params=
+comment5.target=void\ testShowInfo()
+comment5.text=\r\n\ Teste\ ao\ metodo\ que\ mostra\ no\ ecra\ informacao\ sobre\ a\ eleicao.\r\n
+numComments=6

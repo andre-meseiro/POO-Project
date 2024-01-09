@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ResultadosGrafico
+comment0.text=\r\n\ A\ classe\ ResultadosGrafico\ representa\ um\ grafico\ com\ os\ resultados\ dos\ votos.\r\n\r\n\ @author\ Grupo\ 4\ Turma\ 7\ -\ adaptado\ do\ codigo\ fornecido\ na\ aula\r\n\ @version\ 01/07/2022\r\n
+comment1.params=caption\ title\ fileName
+comment1.target=ResultadosGrafico(javafx.scene.control.Label,\ java.lang.String,\ java.lang.String)
+comment2.params=fileName
+comment2.target=void\ setFillData(java.lang.String)
+comment3.params=caption
+comment3.target=void\ setHandler(javafx.scene.control.Label)
+comment4.params=event
+comment4.target=void\ handle(javafx.scene.input.MouseEvent)
+numComments=5

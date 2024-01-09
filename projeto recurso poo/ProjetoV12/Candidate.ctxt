@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Candidate
+comment0.text=\r\n\ A\ classe\ Candidate\ representa\ um\ candidato.\r\n\r\n\ @author\ Grupo\ 4\ Turma\ 7\r\n\ @version\ 13/05/2022\r\n
+comment1.params=voter\ vm\ type\ party\ role
+comment1.target=Candidate(Voter,\ VoteManager,\ ElectionType,\ Parties,\ java.lang.String)
+comment1.text=\r\n\ Construtor\ da\ classe\ Candidate.\r\n\ Instancia\ um\ novo\ candidato.\r\n\ \r\n\ @param\ voter\ -\ o\ votante\r\n\ @param\ vm\ -\ o\ gerente\ dos\ votos\r\n\ @param\ type\ -\ o\ tipo\ de\ elei\u00C3\u00A7\u00C3\u00A3o\r\n\ @param\ party\ -\ o\ partido\r\n\ @param\ role\ -\ o\ cargo\r\n
+comment2.params=
+comment2.target=Voter\ getVoter()
+comment3.params=
+comment3.target=java.util.List\ getVotes()
+comment4.params=
+comment4.target=int\ getNumberOfVotesObtained()
+comment5.params=
+comment5.target=ElectionType\ getElectionType()
+comment6.params=
+comment6.target=Parties\ getPoliticalParty()
+comment7.params=
+comment7.target=java.lang.String\ getRole()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

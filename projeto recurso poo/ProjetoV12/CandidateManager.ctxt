@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=CandidateManager
+comment0.text=\r\n\ A\ classe\ CandidateManager\ serve\ para\ gerir\ uma\ lista\ de\ candidatos.\r\n\r\n\ @author\ Grupo\ 4\ Turma\ 7\r\n\ @version\ 27/05/2022\r\n
+comment1.params=
+comment1.target=CandidateManager()
+comment1.text=\r\n\ Construtor\ da\ classe\ CandidateManager.\r\n\ Instancia\ uma\ nova\ lista\ de\ candidatos.\r\n
+comment2.params=candidate
+comment2.target=boolean\ addCandidate(Candidate)
+comment2.text=\r\n\ Metodo\ para\ adicionar\ um\ candidato\ na\u00A0lista.\r\n\r\n\ @param\ candidate\ -\ o\ candidato\ a\ adicionar\r\n\ @return\ true\ caso\ seja\ possivel\ adicionar\ falso\ caso\ contrario\r\n
+comment3.params=
+comment3.target=java.util.List\ getCandidates()
+comment4.params=
+comment4.target=int\ getNumberOfCandidates()
+comment5.params=
+comment5.target=void\ showCandidatesInfo()
+comment5.text=\r\n\ Metodo\ para\ mostrar\ informacoes\ sobre\ os\ candidatos\ da\ lista.\r\n
+numComments=6

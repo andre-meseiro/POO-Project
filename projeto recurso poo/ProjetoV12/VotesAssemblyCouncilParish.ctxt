@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=VotesAssemblyCouncilParish
+comment0.text=\r\n\ A\ classe\ VotesAssemblyCouncilParish\ guarda\ a\ informacao\ dos\ votos\ para\ a\ assembleia,\ para\ a\ camara\r\n\ ou\ para\ a\ freguesia\ no\ distrito\ de\ Setubal.\r\n\r\n\ @author\ Grupo\ 4\ Turma\ 7\r\n\ @version\ 25/05/2022\r\n
+comment1.params=tableId\ parishName\ politicalParty\ numberOfVotes
+comment1.target=VotesAssemblyCouncilParish(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Construtor\ da\ classe\ VotesAssemblyCouncilParish.\r\n\ \r\n\ @param\ tableId\ -\ o\ id\ da\ mesa\r\n\ @param\ parishName\ -\ o\ nome\ da\ freguesia\r\n\ @param\ politicalParty\ -\ o\ partido\r\n\ @param\ numberOfVotes\ -\ o\ numero\ de\ votos\r\n
+comment2.params=
+comment2.target=java.lang.String\ getTableId()
+comment3.params=
+comment3.target=java.lang.String\ getParishName()
+comment4.params=
+comment4.target=java.lang.String\ getPoliticalParty()
+comment5.params=
+comment5.target=java.lang.String\ getNumberOfVotes()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

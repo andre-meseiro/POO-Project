@@ -1,0 +1,29 @@
+#BlueJ class context
+comment0.target=EuropeanElection
+comment0.text=\r\n\ A\ classe\ EuropeanElection\ representa\ uma\ eleicao\ europeia.\r\n\ \r\n\ @author\ Grupo\ 4\ Turma\ 7\ \r\n\ @version\ 14/05/2022\r\n
+comment1.params=type\ timePeriod
+comment1.target=EuropeanElection(ElectionType,\ java.lang.String)
+comment1.text=\r\n\ Construtor\ da\ classe\ EuropeanElection.\r\n\ Instancia\ uma\ nova\ eleicao\ europeia.\r\n\ \r\n\ @param\ type\ -\ atributo\ da\ super\ classe\r\n\ @param\ timePeriod\ -\ periodo\ em\ que\ se\ realiza\ a\ eleicao\r\n
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.lang.String\ getElectionType()
+comment3.params=
+comment3.target=java.lang.String\ getTimePeriod()
+comment4.params=
+comment4.target=int\ getNumberOfVotesEuropean()
+comment5.params=
+comment5.target=void\ electEuropeanRepresentative()
+comment5.text=\r\n\ Elege\ o\ representante.\r\n\ \r\n\ @param\ candidates\ -\ lista\ de\ candidatos\r\n
+comment6.params=
+comment6.target=java.lang.String\ getRepresentative()
+comment7.params=
+comment7.target=void\ getNumberOfVotesEachCandidate()
+comment7.text=\r\n\ Metodo\ que\ mostra\ no\ ecra\ o\ numero\ de\ votos\ que\ cada\ candidato\ obteve.\r\n
+comment8.params=
+comment8.target=void\ getVotesPercentage()
+comment8.text=\r\n\ Metodo\ que\ mostra\ no\ ecra\ a\ percentagem\ de\ votos\ obtida\ pelos\ candidatos.\r\n\ \r\n
+comment9.params=
+comment9.target=int\ getNumberOfMandates()
+comment9.text=\r\n\ \ \ \ \r\n\ \ \ \ \r\n\ \ \ \ /**\r\n\ Calcula\ o\ numero\ de\ mandatos\ atribu\u00C3\u00ADdos\ de\ acordo\ com\ o\ Metodo\ de\ Hondt.\r\n\ \r\n\ \ \ \ \r\n\ \ \ \ public\ void\ CalculateMandates()\ {\r\n\ \ \ \ \ \ \ \ ArrayList\ <Double>\ values\ \=\ new\ ArrayList\ <>\ ();\r\n\ \ \ \ \ \ \ \ double\ countA,\ countB,\ countC,\ countD,\ countE,\ countF,\ countG;\r\n\ \ \ \ \ \ \ \ countA\=0;\r\n\ \ \ \ \ \ \ \ countB\=0;\r\n\ \ \ \ \ \ \ \ countC\=0;\r\n\ \ \ \ \ \ \ \ countD\=0;\r\n\ \ \ \ \ \ \ \ countE\=0;\r\n\ \ \ \ \ \ \ \ countF\=0;\r\n\ \ \ \ \ \ \ \ countG\=0;\r\n\ \ \ \ \ \ \ \ int\ max\=0;\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ for(int\ i\ \=\ 0;\ i\ <\ vac.help();\ i++){\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(vac.get(i).getSelectedOption().equalsIgnoreCase("A"))\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ countA++;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ else\ if(vac.get(i).getSelectedOption().equalsIgnoreCase("B"))\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ countB++;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }else\ if(vac.get(i).getSelectedOption().equalsIgnoreCase("C"))\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ countC++;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }else\ if(vac.get(i).getSelectedOption().equalsIgnoreCase("D"))\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ countD++;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }else\ if(vac.get(i).getSelectedOption().equalsIgnoreCase("E"))\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ countE++;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }else\ if(vac.get(i).getSelectedOption().equalsIgnoreCase("F"))\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ countF++;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }else\ if(vac.get(i).getSelectedOption().equalsIgnoreCase("G"))\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ countG++;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ for(int\ j\ \=\ 1\ ;\ j\ <\ 132;\ j++){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ double\ totalA\ \=\ countA/j;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ double\ totalB\ \=\ countB/j;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ double\ totalC\ \=\ countC/j;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ double\ totalD\ \=\ countD/j;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ double\ totalE\ \=\ countE/j;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ double\ totalF\ \=\ countF/j;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ double\ totalG\ \=\ countG/j;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ values.add(totalA);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ values.add(totalB);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ values.add(totalC);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ values.add(totalD);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ values.add(totalE);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ values.add(totalF);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ values.add(totalG);\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ Collections.sort(values,\ Collections.reverseOrder());\r\n\ \ \ \ \ \ \ \ for(int\ k\ \=\ 1;\ k\ <\ values.size();k++){\r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("Numero\ de\ mandatos\:\ "+\ vac.get(k).getSelectedOption());\ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ }\r\n
+numComments=11

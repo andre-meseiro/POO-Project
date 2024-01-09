@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Election
+comment0.text=\r\n\ A\ super\ classe\ abstrata\ Election\ representa\ uma\ eleicao.\r\n\ \r\n\ @author\ Grupo\ 4\ Turma\ 7\r\n\ @version\ 14/05/2022\r\n
+comment1.params=type
+comment1.target=Election(ElectionType)
+comment1.text=\r\n\ Construtor\ da\ classe\ Election.\r\n\ \r\n\ @param\ type\ -\ o\ tipo\ de\ eleicao\ de\ acordo\ com\ o\ enumerado\ ElectionType\r\n
+comment2.params=
+comment2.target=java.lang.String\ getElectionType()
+comment3.params=
+comment3.target=java.lang.String\ getTimePeriod()
+numComments=4

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Voter
+comment0.text=\r\n\ A\ classe\ Voter\ representa\ um\ votante.\r\n\r\n\ @author\ Grupo\ 4\ Turma\ 7\r\n\ @version\ 03/05/2022\r\n
+comment1.params=name\ age\ pollingTable\ voterOrIdNumber\ inPortugal
+comment1.target=Voter(java.lang.String,\ int,\ PollingTable,\ java.lang.String,\ boolean)
+comment1.text=\r\n\ Construtor\ da\ classe\ Voter.\r\n\ Instancia\ um\ novo\ votante.\r\n\ \r\n\ @param\ name\ -\ nome\ do\ votante\r\n\ @param\ age\ -\ idade\ do\ votante\r\n\ @param\ pollingTable\ -\ mesa\ de\ Voto\ associada\ ao\ votante\r\n\ @param\ voterOrIdNumber\ -\ numero\ de\ eleitor\ ou\ numero\ do\ CC\r\n\ @param\ inPortugal\ -\ indica\ se\ o\ votante\ se\ encontra\ ou\ nao\ em\ Portugal\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=name
+comment3.target=void\ setName(java.lang.String)
+comment4.params=
+comment4.target=int\ getAge()
+comment5.params=
+comment5.target=PollingTable\ getPollingTable()
+comment6.params=
+comment6.target=java.lang.String\ getNumber()
+comment7.params=
+comment7.target=boolean\ isInPortugal()
+comment8.params=
+comment8.target=boolean\ canVote()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

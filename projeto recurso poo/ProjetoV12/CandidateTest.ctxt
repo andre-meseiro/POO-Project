@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CandidateTest
+comment0.text=\r\n\ The\ test\ class\ CandidateTest.\r\n\r\n\ @author\ \ Grupo\ 4\ Turma\ 7\r\n\ @version\ 27/06/2022\r\n
+comment1.params=
+comment1.target=CandidateTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ CandidateTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testConstructor()
+comment4.text=\r\n\ Test\ creation\ and\ the\ initial\ state\ of\ a\ voter.\r\n
+numComments=5

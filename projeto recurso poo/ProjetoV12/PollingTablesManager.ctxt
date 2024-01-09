@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PollingTablesManager
+comment0.text=\r\n\ A\ classe\ PollingTablesManager\ serve\ para\ importar\ o\ ficheiro\ das\ mesas\ e\ gerir\ a\ sua\ informacao.\r\n\r\n\ @author\ Grupo\ 4\ Turma\ 7\ baseado\ nos\ codigos\ exemplo\ mostrados\ nas\ aulas\ TP's\ e\ nos\ powerpoints\r\n\ @version\ 24/05/2022\r\n
+comment1.params=fileName
+comment1.target=PollingTablesManager(java.lang.String)
+comment1.text=\r\n\ Construtor\ da\ classe\ PollingTablesManager.\r\n\ Instancia\ um\ novo\ gerente\ para\ as\ mesas\ de\ voto.\r\n\ \r\n\ @param\ fileName\ -\ nome\ do\ ficheiro\ a\ ler\r\n
+comment2.params=fileName
+comment2.target=void\ readTablesInfo(java.lang.String)
+comment2.text=\r\n\ Metodo\ que\ le\ a\ informacao\ do\ ficheiro\ das\ mesas.\r\n\ \r\n\ @param\ fileName\ -\ nome\ do\ ficheiro\ a\ ler\r\n
+comment3.params=parishName
+comment3.target=java.util.List\ getTablesInParish(java.lang.String)
+comment3.text=\r\n\ Metodo\ que\ retorna\ uma\ lista\ com\ as\ mesas\ que\ estao\ numa\ determinada\ freguesia.\r\n\ \r\n\ @param\ parishName\ -\ o\ nome\ da\ freguesia\r\n\ @return\ List\ <PollingTable>\ -\ lista\ com\ as\ mesas\r\n
+comment4.params=parishName\ tableId
+comment4.target=int\ getNumberOfVotersCertainTable(java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ Metodo\ que\ retorna\ o\ numero\ de\ votantes\ de\ uma\ determinada\ mesa.\r\n\ \r\n\ @param\ parishName\ -\ nome\ da\ freguesia\r\n\ @param\ tableId\ -\ o\ id\ da\ mesa\r\n\ @return\ int\ -\ o\ numero\ de\ votantes\ da\ mesa\r\n
+comment5.params=parishName
+comment5.target=int\ getNumberOfVotersInParish(java.lang.String)
+comment5.text=\r\n\ Metodo\ que\ retorna\ o\ numero\ total\ de\ votantes\ numa\ determinada\ freguesia.\r\n\ \r\n\ @param\ parishName\ -\ o\ nome\ da\ freguesia\r\n\ @return\ int\ -\ o\ numero\ total\ de\ votantes\r\n
+comment6.params=
+comment6.target=void\ showTablesInfo()
+comment6.text=\r\n\ Metodo\ que\ mostra\ a\ informacao\ das\ mesas\ de\ voto.\r\n
+numComments=7

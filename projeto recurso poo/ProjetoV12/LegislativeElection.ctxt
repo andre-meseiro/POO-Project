@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=LegislativeElection
+comment0.text=\r\n\ A\ classe\ LegislativeElection\ representa\ uma\ eleicao\ legislativa.\r\n\ \r\n\ @author\ Grupo\ 4\ Turma\ 7\r\n\ @version\ 14/05/2022\r\n
+comment1.params=type\ timePeriod
+comment1.target=LegislativeElection(ElectionType,\ java.lang.String)
+comment1.text=\r\n\ Construtor\ da\ classe\ LegislativeElection.\r\n\ Instancia\ uma\ nova\ eleicao\ legislativa.\r\n\ \r\n\ @param\ type\ -\ atributo\ da\ super\ classe\r\n\ @param\ timePeriod\ -\ periodo\ em\ que\ se\ realiza\ a\ eleicao\r\n
+comment2.params=
+comment2.target=java.lang.String\ getElectionType()
+comment3.params=
+comment3.target=java.lang.String\ getTimePeriod()
+comment4.params=
+comment4.target=int\ getNumberOfVotesLegislatives()
+comment5.params=
+comment5.target=void\ electRepresentative()
+comment5.text=\r\n\ Elege\ o\ representante.\r\n\ \r\n\ @param\ candidates\ -\ lista\ de\ candidatos\r\n
+comment6.params=
+comment6.target=void\ getVotesPercentage()
+comment6.text=\r\n\ Metodo\ que\ mostra\ no\ ecra\ a\ percentagem\ de\ votos\ obtida\ pelos\ partidos.\r\n\ \r\n
+comment7.params=
+comment7.target=int\ getNumberOfMandates()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

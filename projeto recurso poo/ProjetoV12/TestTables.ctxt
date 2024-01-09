@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TestTables
+comment0.text=\r\n\ A\ classe\ TestTables\ serve\ como\ teste\ para\ as\ funcionalidades\ implementadas\ no\ gestor\ de\ mesas\ de\ voto,\ que\ importa\ informacao\ das\ mesmas.\r\n\r\n\ @author\ Grupo\ 4\ Turma\ 7\r\n\ @version\ 27/06/2022\r\n
+comment1.params=
+comment1.target=TestTables()
+comment1.text=\r\n\ Construtor\ da\ classe\ TestTables.\r\n\ Instancia\ um\ novo\ teste.\r\n
+comment2.params=parishName
+comment2.target=java.util.List\ testGetTablesInParish(java.lang.String)
+comment2.text=\r\n\ Teste\ ao\ metodo\ que\ retorna\ uma\ lista\ com\ as\ mesas\ que\ estao\ numa\ determinada\ freguesia.\r\n\r\n\ @param\ parishName\ -\ o\ nome\ da\ freguesia\r\n\ @return\ List\ <PollingTable>\ -\ lista\ com\ as\ mesas\r\n
+comment3.params=parishName\ tableId
+comment3.target=int\ testGetNumberOfVotersCertainTable(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ Teste\ ao\ metodo\ que\ retorna\ o\ numero\ de\ votantes\ de\ uma\ terminada\ mesa.\r\n\ \r\n\ @param\ parishName\ -\ nome\ da\ freguesia\r\n\ @param\ tableId\ -\ o\ id\ da\ mesa\r\n\ @return\ int\ -\ o\ numero\ de\ votantes\ da\ mesa\r\n
+comment4.params=parishName
+comment4.target=int\ getNumberOfVotersInParish(java.lang.String)
+comment4.text=\r\n\ Teste\ ao\ metodo\ que\ retorna\ o\ numero\ total\ de\ votantes\ numa\ determinada\ freguesia.\r\n\ \r\n\ @param\ parishName\ -\ o\ nome\ da\ freguesia\r\n\ @return\ int\ -\ o\ numero\ total\ de\ votantes\r\n
+comment5.params=
+comment5.target=void\ testShowTablesInfo()
+comment5.text=\r\n\ Teste\ ao\ metodo\ que\ mostra\ a\ informacao\ das\ mesas\ de\ voto.\r\n
+numComments=6
